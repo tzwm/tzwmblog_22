@@ -1,0 +1,18 @@
+[submodule "themes/elementary"]
+	path = themes/elementary
+	url = git@github.com:abhn/Elementary.git
+[submodule "themes/no-style-please"]
+	path = themes/no-style-please
+	url = https://github.com/riggraz/no-style-please.git
+[submodule "themes/jekyll-paper"]
+	path = themes/jekyll-paper
+	url = https://github.com/ghosind/Jekyll-Paper.git
+[submodule "themes/researcher"]
+	path = themes/researcher
+	url = https://github.com/ankitsultana/researcher.git
+[submodule "themes/console"]
+	path = themes/console
+	url = https://github.com/b2a3e8/jekyll-theme-console.git
+[submodule "themes/minimalist"]
+	path = themes/minimalist
+	url = https://github.com/BDHU/minimalist.git
