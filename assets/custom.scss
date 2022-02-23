@@ -1,0 +1,22 @@
+---
+---
+
+.post-date {
+  width: 7em;
+  flex-shrink: 0;
+}
+
+.tags {
+  background-color: white;
+  color: #777777;
+  padding: 2px 5px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+hr.stylish {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80));
+  margin: 5px 0;
+}

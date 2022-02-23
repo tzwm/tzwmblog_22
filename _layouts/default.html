@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+<div class="container">
+  {% include nav.html %}
+  <hr class="stylish"/>
+  {{ content }}
+</div>
+
+{% include footer.html %}
+
+{% if site.javascript_enabled %}
+  <script src="/assets/main.js"></script>
+{% endif %}
+</body>
+</html>

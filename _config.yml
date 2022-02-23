@@ -47,10 +47,8 @@ exclude:
 theme: elementary
 javascript_enabled: true
 
-collections:
-  life:
-    title: Life
-    default_open: true
+sass:
+  style: compressed
 
 #theme: no-style-please
 #theme_config:
