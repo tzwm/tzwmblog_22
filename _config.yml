@@ -20,6 +20,7 @@
 
 title: tzwm's Blog
 email: blog@tzwm.me
+author: tzwm
 description: >- # this means to ignore newlines until "baseurl:"
   ……
 baseurl: "" # the subpath of your site, e.g. /blog
