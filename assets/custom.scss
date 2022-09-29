@@ -1,6 +1,20 @@
 ---
 ---
 
+.top-nav a {
+  text-decoration: auto;
+}
+
+footer span {
+  margin-right: 0.4rem;
+  white-space: nowrap;
+}
+
+p {
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}
+
 .post-date {
   width: 7em;
   flex-shrink: 0;

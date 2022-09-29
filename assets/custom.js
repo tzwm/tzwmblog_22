@@ -1,30 +1,19 @@
 document.addEventListener("DOMContentLoaded", () => {
-  initUtterances();
+  initRemark42();
 });
 
-const initUtterances = () => {
+const initRemark42 = () => {
   const darkSwitchesArray = document.querySelectorAll('.dark-light-switch');
   darkSwitchesArray.forEach(darkSwitch => {
-    darkSwitch.addEventListener('click', toggleUtterancesTheme);
+    darkSwitch.addEventListener('click', toggleRemark42Theme);
   });
 
-  addEventListener('message', event => {
-    if (event.origin !== 'https://utteranc.es') {
-      return;
-    }
-    if (!getCookie('nightMode')) {
-      return;
-    }
-    toggleUtterancesTheme();
-  });
-};
+  if (getCookie('nightMode')) {
+    window.REMARK42.changeTheme('dark');
+  }
+}
 
-const toggleUtterancesTheme = () => {
-  const theme = getCookie('nightMode') ? 'github-dark' : 'boxy-light'
-  const message = {
-    type: 'set-theme',
-    theme: theme
-  };
-  const utterances = document.querySelector('.utterances-frame').contentWindow; // try event.source instead
-  utterances.postMessage(message, 'https://utteranc.es');
+const toggleRemark42Theme = () => {
+  const theme = getCookie('nightMode') ? 'dark' : 'light';
+  window.REMARK42.changeTheme(theme);
 }
