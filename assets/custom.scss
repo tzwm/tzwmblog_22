@@ -1,8 +1,12 @@
 ---
 ---
 
-.top-nav a {
+.top-nav a, .post-wrapper a {
   text-decoration: auto;
+}
+
+.post-wrapper time {
+  font-weight: 200;
 }
 
 footer span {
@@ -13,6 +17,21 @@ footer span {
 p {
   font-size: 1.1rem;
   margin: 1rem 0;
+}
+
+.highlight {
+  overflow-x: auto;
+  background: none;
+  font-family: San Francisco Mono, Monaco, "Consolas", "Lucida Console", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
+}
+
+pre:has(.language-mermaid) {
+  text-align: center;
+  background: none;
+}
+
+.language-mermaid {
+  background: none;
 }
 
 .post-date {
