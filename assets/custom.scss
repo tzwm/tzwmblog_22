@@ -1,6 +1,18 @@
 ---
 ---
 
+body {
+  font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+}
+
+blockquote {
+  padding: 0.4rem;
+}
+
+blockquote p {
+  margin: 0;
+}
+
 .top-nav a, .post-wrapper a {
   text-decoration: auto;
 }
@@ -14,8 +26,8 @@ footer span {
   white-space: nowrap;
 }
 
-p {
-  font-size: 1.1rem;
+p, li {
+  font-size: 1.2rem;
   margin: 1rem 0;
 }
 
